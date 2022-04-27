@@ -1,0 +1,18 @@
+.project {
+	&__name,
+	&__description,
+	&__link {
+		@include font($font-mono, 13, 23, 400, $c-primary);
+		span {
+			color: $c-low;
+		}
+	}
+	a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	picture {
+		max-width: 100%;
+	}
+}

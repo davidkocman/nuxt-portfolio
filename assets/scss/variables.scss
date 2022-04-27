@@ -1,0 +1,49 @@
+@use "sass:math";
+
+$base-font-size: 16;
+
+//
+// Colors
+//
+$c-body: #31313a;
+$c-border: #28282f;
+$c-high: #f0f0f0;
+$c-low: #a2a2a6;
+$c-other: #999999;
+$c-primary: #f26a38;
+$c-underline: #666666;
+$c-facebook: #3b5998;
+$c-linkedin: #0e76a8;
+
+//
+// Breakpoints
+//
+$breakpoints: (
+	0: 0px,
+	1: 100px,
+	2: 200px,
+	3: 360px,
+	4: 480px,
+	5: 512px,
+	6: 640px,
+	7: 768px,
+	8: 800px,
+	9: 960px,
+	10: 1024px,
+	11: 1152px,
+	12: 1280px,
+	13: 1366px,
+	14: 1440px,
+	15: 1536px,
+	16: 1600px,
+	17: 1700px,
+	18: 1800px,
+	19: 1920px,
+);
+
+//
+// Fonts
+//
+$font-roboto: "Roboto", sans-serif;
+$font-mono: "Roboto Mono", sans-serif;
+$font-fa: "Font Awesome";

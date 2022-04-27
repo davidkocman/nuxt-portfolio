@@ -1,0 +1,36 @@
+.interests {
+	.wrapper {
+		display: grid;
+		gap: 60px 20px;
+		grid-template-columns: repeat(2, 1fr);
+		@include bp(7) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		.item {
+			.title {
+				@include font($font-mono, 11, null, 500, $c-high);
+				margin-bottom: 20px;
+				align-items: center;
+				display: flex;
+				@include bp(7) {
+					font-size: 13px;
+				}
+				svg {
+					color: $c-primary;
+					width: 16px;
+					height: 16px;
+					@include bp(7) {
+						width: 24px;
+						height: 24px;
+					}
+				}
+				span {
+					padding-left: 10px;
+				}
+			}
+			p {
+				@include font($font-mono, 13, 23, 400, $c-low);
+			}
+		}
+	}
+}

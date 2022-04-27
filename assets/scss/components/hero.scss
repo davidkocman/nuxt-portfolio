@@ -1,0 +1,47 @@
+.hero {
+	min-height: 100vh;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	.title {
+		.h1 {
+			@include font($font-mono, 22, 36, 700, $c-high);
+			@include bp(7) {
+				font-size: 48px;
+				line-height: 60px;
+			}
+			@include bp(12) {
+				font-size: 68px;
+				line-height: 84px;
+			}
+			letter-spacing: 2.72px;
+			.blink {
+				font-size: 22px;
+				@include bp(7) {
+					font-size: 48px;
+				}
+				@include bp(12) {
+					font-size: 68px;
+				}
+				color: $c-primary;
+			}
+		}
+		.h2 {
+			@include font($font-mono, 13, 18, 400, $c-low);
+			letter-spacing: 2.72px;
+			span {
+				color: $c-primary;
+				display: block;
+				@include bp(7) {
+					display: inline;
+				}
+			}
+		}
+	}
+	span {
+		@include font($font-mono, 13, 18, 400, $c-low);
+	}
+}

@@ -1,0 +1,15 @@
+@mixin font($family: false, $size: false, $lh: false, $weight: false, $color: false) {
+	font-family: $family;
+	@if $size {
+		font-size: math.div($size, $base-font-size) + rem;
+	}
+	@if $lh {
+		line-height: math.div($lh, $base-font-size) + rem;
+	}
+	@if $weight {
+		font-weight: $weight;
+	}
+	@if $color {
+		color: $color;
+	}
+}

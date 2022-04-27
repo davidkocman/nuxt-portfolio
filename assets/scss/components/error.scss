@@ -1,0 +1,8 @@
+.error {
+	h3 {
+		@include font($font-roboto, 16, 24, null, $c-high);
+		span {
+			color: $c-primary;
+		}
+	}
+}

@@ -1,0 +1,197 @@
+[
+	{
+		"name": "Agiledev",
+		"slug": "agiledev",
+		"description": "Development of banking and payment backend applications in JAVA.",
+		"color": "red",
+		"image": {
+			"desktop": "agiledev-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "agiledev.png",
+		"meta": {
+			"description": "Development of banking and payment backend applications in JAVA."
+		},
+		"url": "https://www.agiledev.sk/"
+	},
+	{
+		"name": "Blog",
+		"slug": "smeblog",
+		"description": "blog.sme.sk - a place where you can find the best bloggers in Slovakia.",
+		"color": "red",
+		"image": {
+			"desktop": "blog-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "blog.png",
+		"meta": {
+			"description": "blog.sme.sk - a place where you can find the best bloggers in Slovakia."
+		},
+		"url": "https://blog.sme.sk/"
+	},
+	{
+		"name": "Centrum",
+		"slug": "centrum",
+		"description": "Good old centrum.",
+		"color": "red",
+		"image": {
+			"desktop": "centrum-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "centrum.png",
+		"meta": {
+			"description": "Good old centrum."
+		},
+		"url": "https://www.centrum.sk/"
+	},
+	{
+		"name": "Dobré jedlo",
+		"slug": "dobrejedlo",
+		"description": "Recipes for traditional and exotic food and drinks.",
+		"color": "red",
+		"image": {
+			"desktop": "dobrejedlo-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "dobrejedlo.png",
+		"meta": {
+			"description": "Recipes for traditional and exotic food and drinks."
+		},
+		"url": "https://dobrejedlo.pluska.sk/"
+	},
+	{
+		"name": "Dunajček",
+		"slug": "dunajcek",
+		"description": "Kindergarten page.",
+		"color": "red",
+		"image": {
+			"desktop": "dunajcek-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "dunajcek.png",
+		"meta": {
+			"description": "Kindergarten page."
+		},
+		"url": ""
+	},
+	{
+		"name": "Emma",
+		"slug": "emma",
+		"description": "Lifestyle women's magazine.",
+		"color": "red",
+		"image": {
+			"desktop": "emma-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "emma.png",
+		"meta": {
+			"description": "Lifestyle women's magazine."
+		},
+		"url": "https://emma.pluska.sk/"
+	},
+	{
+		"name": "George.SME.sk",
+		"slug": "george",
+		"description": "Useful tips and information on money, innovation and modern technologies.",
+		"color": "red",
+		"image": {
+			"desktop": "george-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "george.png",
+		"meta": {
+			"description": "Useful tips and information on money, innovation and modern technologies."
+		},
+		"url": "https://george.sme.sk/"
+	},
+	{
+		"name": "Mediálne",
+		"slug": "medialne",
+		"description": "A source of information on media, marketing and advertising. Monitoring of events on television, radio and on the Internet.",
+		"color": "red",
+		"image": {
+			"desktop": "medialne-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "medialne.png",
+		"meta": {
+			"description": "A source of information on media, marketing and advertising. Monitoring of events on television, radio and on the Internet."
+		},
+		"url": "https://medialne.etrend.sk/"
+	},
+	{
+		"name": "Čas pre ženy",
+		"slug": "casprezeny",
+		"description": "Time for Women, an online magazine for stylish women.",
+		"color": "red",
+		"image": {
+			"desktop": "ncpz-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "ncpz.png",
+		"meta": {
+			"description": "Time for Women, an online magazine for stylish women."
+		},
+		"url": "https://casprezeny.pluska.sk/"
+	},
+	{
+		"name": "Poľovníctvo a rybárstvo",
+		"slug": "polovnictvoarybarstvo",
+		"description": "Wildlife, fishing, hunting and fishing. Articles, photos and videos of hunting and fishing and cooking.",
+		"color": "red",
+		"image": {
+			"desktop": "par-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "par.png",
+		"meta": {
+			"description": "Wildlife, fishing, hunting and fishing. Articles, photos and videos of hunting and fishing and cooking."
+		},
+		"url": "https://polovnictvo-rybarstvo.pluska.sk/"
+	},
+	{
+		"name": "Reality.sk",
+		"slug": "reality",
+		"description": "Current offer of real estate from Slovakia, Europe and the USA. Real estates for sale, rent, auctions, flats, family houses and land.",
+		"color": "red",
+		"image": {
+			"desktop": "reality-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "reality.png",
+		"meta": {
+			"description": "Current offer of real estate from Slovakia, Europe and the USA. Real estates for sale, rent, auctions, flats, family houses and land."
+		},
+		"url": "https://reality.etrend.sk/"
+	},
+	{
+		"name": "Šarm",
+		"slug": "sarm",
+		"description": "Šarm - a women's magazine with good taste.",
+		"color": "red",
+		"image": {
+			"desktop": "sarm-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "sarm.png",
+		"meta": {
+			"description": "Šarm - a women's magazine with good taste."
+		},
+		"url": "https://sarm.pluska.sk/"
+	},
+	{
+		"name": "Šport24",
+		"slug": "sport24",
+		"description": "The latest sports news, results of matches, tournaments or races in our sports news. Current events in the world of sports with Sport 24.",
+		"color": "red",
+		"image": {
+			"desktop": "sport24-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "sport24.png",
+		"meta": {
+			"description": "The latest sports news, results of matches, tournaments or races in our sports news. Current events in the world of sports with Sport 24."
+		},
+		"url": "https://sport24.pluska.sk/"
+	}
+]

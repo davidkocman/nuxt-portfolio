@@ -1,0 +1,45 @@
+.experiences {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr;
+	@include bp(7) {
+		grid-template-columns: 1fr 1fr;
+	}
+	.column {
+		ul {
+			padding-bottom: 40px;
+			padding-left: 40px;
+			border-left: 1px solid $c-primary;
+			&:first-of-type {
+				margin-top: 10px;
+			}
+			&:last-child {
+				border-left: none;
+			}
+			li {
+				&.date {
+					@include font($font-mono, 11, 24, 500, $c-primary);
+					@include position(relative, -13px);
+					padding-left: 4px;
+					padding-right: 4px;
+					border: 1px solid $c-primary;
+					display: inline-block;
+					&::before {
+						@include position(absolute, 50%, null, null, -41px);
+						background-color: $c-primary;
+						content: "";
+						height: 1px;
+						transform: translateY(-50%);
+						width: 40px;
+					}
+				}
+				&.title {
+					@include font($font-mono, 13, null, 700, $c-high);
+				}
+				&.info {
+					@include font($font-mono, 13, 23, 400, $c-low);
+				}
+			}
+		}
+	}
+}

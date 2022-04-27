@@ -1,0 +1,18 @@
+{
+	"name": "Portfolio | David Kocman",
+	"short_name": "Portfolio",
+	"start_url": "/",
+	"scope": "/",
+	"lang": "en",
+	"description": "David Kocman, front end developer based in Bratislava, Slovakia.",
+	"icons": [
+		{
+			"src": "/page.png",
+			"sizes": "1856x895",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#31313a",
+	"background_color": "#31313a",
+	"display": "standalone"
+}

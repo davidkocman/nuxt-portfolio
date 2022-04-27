@@ -1,0 +1,51 @@
+.about {
+	.wrapper {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 40px;
+		@include bp(7) {
+			grid-template-columns: 100px auto;
+		}
+		.image {
+			img {
+				margin: 0 auto;
+				max-width: 100px;
+				width: 100%;
+				border-radius: 50%;
+			}
+		}
+		.text {
+			display: grid;
+			grid-template-rows: repeat(3, max-content);
+			gap: 40px;
+			p {
+				@include font($font-mono, 13, 23, 400, $c-low);
+			}
+			.email {
+				@include font($font-mono, 13, 20, 400, $c-primary);
+				text-align: center;
+				@include bp(7) {
+					text-align: left;
+				}
+				span {
+					color: $c-low;
+				}
+			}
+			.btn {
+				@include font($font-mono, 13, 40, 400, #ffffff);
+				margin: 0 auto;
+				width: 150px;
+				height: 40px;
+				align-items: center;
+				background-color: $c-primary;
+				display: flex;
+				justify-content: center;
+				@include bp(7) {
+					margin-top: 0;
+					margin-right: auto;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+body {
+	background-color: $c-body;
+}
+img {
+	display: block;
+	position: relative;
+	height: auto;
+}
+.top,
+.left,
+.right,
+.bottom {
+	background-color: $c-border;
+}
+.top {
+	@include position(fixed, 0, 0, null, 0, 9);
+	width: 100%;
+	height: 20px;
+}
+.left {
+	@include position(fixed, 0, null, 0, 0, 9);
+	width: 20px;
+	height: 100%;
+}
+.right {
+	@include position(fixed, 0, 0, 0, null, 9);
+	width: 20px;
+	height: 100%;
+}
+.bottom {
+	@include position(fixed, null, 0, 0, 0, 9);
+	width: 100%;
+	height: 20px;
+}
+.content {
+	margin: 0 auto 80px;
+	max-width: 920px;
+	padding: 80px 40px 0;
+	@include bp(7) {
+		margin: 0 auto 80px;
+	}
+	@include bp(10) {
+		padding: 95px 0 0;
+	}
+	&.pt-0 {
+		padding: 0 40px 0;
+		@include bp(10) {
+			padding: 0;
+		}
+	}
+}
+section {
+	.section-heading {
+		@include font($font-mono, 13, 18, 400);
+		margin-bottom: 30px;
+		color: $c-high;
+		display: inline-block;
+		position: relative;
+		text-transform: uppercase;
+		&::before {
+			@include position(absolute, null, 0, 0, 0, -1);
+			width: 100%;
+			height: 6px;
+			background-color: $c-underline;
+			content: "";
+		}
+	}
+}
+.blink {
+	animation: blink 1.5s infinite;
+}
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

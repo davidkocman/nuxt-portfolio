@@ -1,0 +1,12 @@
+//	usage:
+//	@include position(absolute, 10px, 10px, 10px, null, 9);
+//	@include position(relative);
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null, $z-index: null) {
+	position: $position;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $left;
+	z-index: $z-index;
+}
