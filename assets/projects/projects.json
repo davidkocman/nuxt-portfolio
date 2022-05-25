@@ -1,20 +1,5 @@
 [
 	{
-		"name": "Agiledev",
-		"slug": "agiledev",
-		"description": "Development of banking and payment backend applications in JAVA.",
-		"color": "red",
-		"image": {
-			"desktop": "agiledev-full.png",
-			"mobile": ""
-		},
-		"thumbnail": "agiledev.png",
-		"meta": {
-			"description": "Development of banking and payment backend applications in JAVA."
-		},
-		"url": "https://www.agiledev.sk/"
-	},
-	{
 		"name": "Blog",
 		"slug": "smeblog",
 		"description": "blog.sme.sk - a place where you can find the best bloggers in Slovakia.",
@@ -28,6 +13,51 @@
 			"description": "blog.sme.sk - a place where you can find the best bloggers in Slovakia."
 		},
 		"url": "https://blog.sme.sk/"
+	},
+	{
+		"name": "Počasie",
+		"slug": "pocasie",
+		"description": "pocasie.sme.sk - current weather forecast for today and a 15 days forecast for all Slovak cities and villages. Detailed forecast for thousands of cities around the world.",
+		"color": "red",
+		"image": {
+			"desktop": "pocasie-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "pocasie.png",
+		"meta": {
+			"description": "pocasie.sme.sk - current weather forecast for today and following 15 days."
+		},
+		"url": "https://pocasie.sme.sk/"
+	},
+	{
+		"name": "George.SME.sk",
+		"slug": "george",
+		"description": "Useful tips and information on money, innovation and modern technologies.",
+		"color": "red",
+		"image": {
+			"desktop": "george-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "george.png",
+		"meta": {
+			"description": "Useful tips and information on money, innovation and modern technologies."
+		},
+		"url": "https://george.sme.sk/"
+	},
+	{
+		"name": "Agiledev",
+		"slug": "agiledev",
+		"description": "Development of banking and payment backend applications in JAVA.",
+		"color": "red",
+		"image": {
+			"desktop": "agiledev-full.png",
+			"mobile": ""
+		},
+		"thumbnail": "agiledev.png",
+		"meta": {
+			"description": "Development of banking and payment backend applications in JAVA."
+		},
+		"url": "https://www.agiledev.sk/"
 	},
 	{
 		"name": "Centrum",
@@ -88,21 +118,6 @@
 			"description": "Lifestyle women's magazine."
 		},
 		"url": "https://emma.pluska.sk/"
-	},
-	{
-		"name": "George.SME.sk",
-		"slug": "george",
-		"description": "Useful tips and information on money, innovation and modern technologies.",
-		"color": "red",
-		"image": {
-			"desktop": "george-full.png",
-			"mobile": ""
-		},
-		"thumbnail": "george.png",
-		"meta": {
-			"description": "Useful tips and information on money, innovation and modern technologies."
-		},
-		"url": "https://george.sme.sk/"
 	},
 	{
 		"name": "Mediálne",
