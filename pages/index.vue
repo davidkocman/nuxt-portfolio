@@ -13,13 +13,7 @@
 			<h3 class="section-heading">About</h3>
 			<div class="wrapper">
 				<div class="image">
-					<img
-						src="~/assets/images/me-small.png"
-						alt="david kocman"
-						class="small"
-						width="100px"
-						height="102px"
-					/>
+					<img src="~/assets/images/me-small.png" alt="david kocman" class="small" width="100px" height="102px" />
 				</div>
 				<div class="text">
 					<p>
@@ -40,7 +34,7 @@
 			<div class="column">
 				<h3 class="section-heading">Experience</h3>
 				<ul>
-					<li class="date">February 2021 - June 2022</li>
+					<li class="date">February 2021 - May 2022</li>
 					<li class="title">Frontend Developer - Petit Press, a.s.</li>
 					<li class="info">
 						HTML & CSS/SCSS, Twig templating, JavaScript - VUE,
