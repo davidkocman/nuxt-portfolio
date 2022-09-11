@@ -1,8 +1,8 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+	// Target: https://go.nuxtjs.dev/config-target
+	target: 'static',
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
+	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: 'David Kocman - frontend developer based in Bratislava',
 		htmlAttrs: {
@@ -41,25 +41,25 @@ export default {
 		loading: { color: '#f26a38' }
 	},
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+	// Global CSS: https://go.nuxtjs.dev/config-css
+	css: [
+	],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+	plugins: [
+	],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+	// Auto import components: https://go.nuxtjs.dev/config-components
+	components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/typescript
+	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+	buildModules: [
+		// https://go.nuxtjs.dev/typescript
 		'@nuxtjs/style-resources',
-    '@nuxt/typescript-build',
+		'@nuxt/typescript-build',
 		'@aceforth/nuxt-optimized-images',
-		'@nuxtjs/fontawesome',
-  ],
+		'@nuxtjs/fontawesome'
+	],
 
 	router: {
 		linkExactActiveClass: 'active-link',
@@ -112,12 +112,12 @@ export default {
 		}
 	},
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
+	// Modules: https://go.nuxtjs.dev/config-modules
+	modules: [
 		'nuxt-webfontloader',
 	],
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+	// Build Configuration: https://go.nuxtjs.dev/config-build
+	build: {
+	}
 }

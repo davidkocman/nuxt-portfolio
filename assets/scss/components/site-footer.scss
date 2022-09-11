@@ -7,41 +7,60 @@
 	background-color: $c-body;
 	display: flex;
 	justify-content: space-between;
+
 	@include bp(10) {
 		padding: 0 60px;
 	}
+
 	.copy {
 		@include font($font-mono, 12, 16, 400, $c-other);
 		display: flex;
 		gap: 8px;
+
 		.icon {
 			align-items: center;
 			display: flex;
 			gap: 4px;
+
+			svg {
+				width: 12px;
+			}
 		}
 	}
+
 	.social {
 		display: flex;
+
 		a {
 			margin-right: 32px;
+
 			&:last-child {
 				margin-right: 0;
 			}
 		}
+
 		.icon {
 			color: $c-high;
 			display: flex;
 			transition: color 0.5s ease;
+			font-size: 16px;
+
+			svg {
+				width: 16px;
+			}
+
 			&--linkedin {
 				&:hover {
 					color: $c-linkedin;
 				}
 			}
+
 			&--github {
 				&:hover {
 					color: $c-primary;
 				}
 			}
+
 			&--facebook {
 				&:hover {
 					color: $c-facebook;
